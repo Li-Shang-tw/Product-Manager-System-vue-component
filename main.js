@@ -154,8 +154,7 @@ const app =Vue.createApp({
         axios.defaults.headers.common.Authorization = token;
      //預設取得第一頁
       this.getProducts(1);
-      this.currentPage =1;
-
+     
        //addProductModal實體化
  productModal = new bootstrap.Modal(document.querySelector('#productModal'));
   //deleteProductModal實體化  

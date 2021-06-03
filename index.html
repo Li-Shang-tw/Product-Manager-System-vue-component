@@ -37,7 +37,7 @@
             <tr v-is="'productList'" :products="products" @emit-product-id=getProductId></tr>
           </tbody>
         </table>
-        <pagination @emit-page-num="getPageNum" :total-page-num ="totalPageNum"></pagination>
+        <pagination @emit-page-num="getPageNum" :total-page-num ="totalPageNum" :current-page="currentPage"></pagination>
         <product-modal-component :modify-product="temporaryProuct" @emit-modify-product="getModifyProduct"></product-modal-component>
          <delete-modal-component  @emit-delete-action='deleteProduct'></delete-modal-component>
       </div>
