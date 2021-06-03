@@ -7,10 +7,10 @@ const path ="shang";
 let delProductModal = null;
           
 //---引入module------//
-import pagination from './components/pagation.js';
-import productList from './components/productList.js';
-import productModalComponent from './components/productModal.js';
-import deleteModalComponent from './components/deleteModal.js'
+import pagination from 'https://li-shang-tw.github.io/Product-Manager-System-vue-component/components/pagation.js';
+import productList from 'https://li-shang-tw.github.io/Product-Manager-System-vue-component/components/productList.js';
+import productModalComponent from 'https://li-shang-tw.github.io/Product-Manager-System-vue-component/components/productModal.js';
+import deleteModalComponent from 'https://li-shang-tw.github.io/Product-Manager-System-vue-component/components/deleteModal.js'
 const app =Vue.createApp({
       data(){
       return{
